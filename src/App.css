@@ -1,0 +1,70 @@
+.signUpDiv{
+  border: 1px solid #DDD;
+  width: 30%;
+  margin: 10rem 35%;
+  height: 43rem;
+}
+
+.button{
+  width: 100%;
+  border: 1px solid #DDD;
+  border-radius: .5rem;
+  height: 2rem;
+  margin: .5rem auto;
+}
+
+.signUpForm{
+  z-index: 2;
+  position: relative;
+  left: 0rem;
+}
+
+@keyframes login{
+  from {left: 37rem;}
+  to {left: 40.5rem;}
+}
+
+.loginButton{
+  border: 1px solid #B90E0A;
+  height: 37rem;
+  position: relative;
+  top: -40rem;
+  left: 40.5rem;
+  width: 15%;
+  background-color: #B90E0A;
+  animation-name: login;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes signUp{
+  from {left: -3rem;}
+  to {left: -6rem;}
+}
+
+.signUpButton{
+  border: 1px solid #00B2FF;
+  height: 37rem;
+  position: relative;
+  top: -37.5rem;
+  left: -6rem;
+  width: 15%;
+  background-color: #00B2FF;
+  animation-name: signUp;
+  animation-duration: .5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+.login{
+  margin: 10rem auto;
+}
